@@ -13,7 +13,7 @@ int main()
 			
 		printf("%d %d",A[loc]);
 		
-	for(i=0;i<)
+	//for(i=0;i<)
 		return 0;
 	
 	// max,min,avg
