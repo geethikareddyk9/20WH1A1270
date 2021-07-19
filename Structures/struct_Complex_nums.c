@@ -22,5 +22,5 @@ int main()
 	scanf("%d",&c2.imaginary2);
 	printf("\n the complex number is : %d +i%d",c2.real2,c2.imaginary2);
 	
-	return 5;
+	return 0;
 }
