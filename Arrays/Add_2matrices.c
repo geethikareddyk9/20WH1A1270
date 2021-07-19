@@ -7,37 +7,38 @@ int main()
 	printf("Enter elements in rows and columns\n");
 	for(i=0;i<r1;i++)
 	{
-    	for(j=0;j<c1;j++)
-    	{
-    		scanf("%d",&A[i][j]);
+    		for(j=0;j<c1;j++)
+    		{
+    			scanf("%d",&A[i][j]);
 		}
-    }	
-    printf("Enter number of rows,Number of columns of second matrix: \n");
+    	}	
+    	printf("Enter number of rows,Number of columns of second matrix: \n");
 	scanf("%d %d",&r2,&c2);
 	printf("Enter elements in rows and columns\n");
-    for(i=0;i<r2;i++)
+    	for(i=0;i<r2;i++)
 	{
-    	for(j=0;j<c2;j++)
-    	{
+    		for(j=0;j<c2;j++)
+    		{
 			scanf("%d",&B[i][j]);
 		}
-    }
+    	}
+	
 	if(r1==r2 && c1==c2)
 	{
 		printf("The addition of the given 2 matrices is:\n");
 		for(i=0;i<r1;i++)
 		{
-    		for(j=0;j<c1;j++)
-    		{
-    			C[i][j]=A[i][j]+B[i][j];
-    			printf("%4d",C[i][j]);
+    			for(j=0;j<c1;j++)
+    			{
+    				C[i][j]=A[i][j]+B[i][j];
+    				printf("%4d",C[i][j]);
 			}
 		printf("\n");
-    	}
+    		}
 	}   
-    else
-    printf("Not possible to add the given matrices");
+   	else
+    	printf("Not possible to add the given matrices");
 
-    return 0;
+    	return 0;
 
 }
